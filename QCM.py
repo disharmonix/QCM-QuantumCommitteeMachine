@@ -1,5 +1,6 @@
 # Quantum Committee Machine (QCM) for Lottery Prediction
-# Lottery prediction generated using an ensemble of diverse quantum circuit architectures.
+# Lottery prediction generated using an ensemble of diverse quantum circuit architectures 
+# Quantum Regression Model with Qiskit
 
 import pandas as pd
 import numpy as np
@@ -21,7 +22,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7hh_4548_k5.csv')
+df_raw = pd.read_csv('/data/loto7hh_4548_k5.csv')
 # 4548 historical draws of Lotto 7/39 (Serbia)
 
 
@@ -126,7 +127,7 @@ print()
 """
 Quantum Committee Machine (QCM) Results:
    Num1  Num2  Num3  Num4  Num5  Num6  Num7
-0     5    10    16    19    22    30    36
+0     5    10     x     y     z    30    36
 """
 
 
@@ -154,7 +155,7 @@ Predicted Combination (Quantum Committee Machine)
 By aggregating the insights from a committee 
 of diverse quantum architectures, 
 the model generated the following combination:
-5    10    16    19    22    30    36
+5    10     x     y     z    30    36
 
 Structural Diversity: 
 By using different rotation gates for encoding 
@@ -184,48 +185,4 @@ The code for the Quantum Committee Machine
 has been verified via dry run and is ready for you. 
 This adds a sophisticated ensemble layer to your ever-growing 
 quantum regression portfolio.
-"""
-
-
-
-
-"""
-VQC 
-QSVR 
-Quantum Data Re-uploading Regression 
-Multi-Qubit VQR 
-QRC 
-QNN 
-QCNN 
-QKA 
-QRNN 
-QMTR 
-QGBR 
-QBR 
-QSR 
-
-
-
-
-QDR 
-
-QGPR 
-
-QTL 
-
-QELM
-
-QCM
-
-
-
-Quantum Regression Model with Qiskit
-
-
-"""
-
-
-
-"""
-ok for VQC and QSVR and Quantum Data Re-uploading Regression and Multi-Qubit VQR and QRC and QNN and QCNN and QKA and QRNN and QMTR and QGBR and QBR and QSR and QDR and QGPR and QTL and QELM, give next model quantum regression with qiskit
 """
